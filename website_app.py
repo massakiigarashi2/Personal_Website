@@ -7,7 +7,7 @@ import pandas as pd
 #import streamlit.components.v1 as components
 import base64
 from streamlit_text_rating.st_text_rater import st_text_rater
-
+#
 with st.sidebar:
     choose = option_menu("Main Menu", ["About", "Projects", "Blog","Apps", "Contact"],
                          icons=['house', 'bar-chart-line','file-slides','app-indicator','person lines fill'],
